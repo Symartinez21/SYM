@@ -1,0 +1,34 @@
+body{
+		margin: 0;
+
+		background-image: url("media/artstudent.jpg");
+		background-repeat: no-repeat;
+		 background-attachment: fixed;
+ 		 background-size: cover;
+}
+
+
+a{
+	text-decoration: none;
+	font-size:20px;
+	padding: 18px;
+	color:white;
+}
+
+a:hover{
+		background: #284472
+}
+
+.navbar{
+		background: #b574ab;
+}
+
+.navlist{
+	display: inline-flex;
+	list-style-type: none;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
