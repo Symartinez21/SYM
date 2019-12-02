@@ -1,10 +1,19 @@
 body{
 		margin: 0;
 
-		background-image: url("media/artstudent.jpg");
+		background-image: url("artstudent.jpg");
 		background-repeat: no-repeat;
 		 background-attachment: fixed;
  		 background-size: cover;
+}
+
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
 }
 
 
