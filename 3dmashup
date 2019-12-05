@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<meta charset= "UTF-8">
+    <link rel="stylesheet" type= "text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--Navigation bar-->
+<head>
+    <title> Sophia Martinez </title>
+<style>
+body {
+  background-color: #f5f5f5;
+  font-family: arial;
+}
+   .content {
+  max-width: 500px;
+  margin: auto;
+  background: #f5f5f5;
+  padding: 10px;
+}
+    
+.glow {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+</style>
+  </head>
+  <body>
+<h1 class="glow">Sophia Martinez</h1>
+    <div class="navbar">
+      <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="artwork.html">Artwork</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://www.instagram.com/scribbledstarart/">Instagram</a></li>
+        <li><a href="https://scribbledstar-art.tumblr.com/">Tumblr</a></li>
+      </ul>
+    </div>
+  </body>
+  <!--end of Nav bar-->
+
+<body>
+
+
+<div class="sketchfab-embed-wrapper">
+    <iframe title="A 3D model" width="640" height="480" src="https://sketchfab.com/models/90062cb57edf4d9e99ef49bdd22271e0/embed" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+    <a href="https://sketchfab.com/3d-models/sophias-3d-mashup-90062cb57edf4d9e99ef49bdd22271e0?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sophia&#39;s 3d mashup</a>
+    by <a href="https://sketchfab.com/sophiaymartinez?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sophia</a>
+    on <a href="https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a>
+</p>
+</div>
+
+</body>
+</html>
