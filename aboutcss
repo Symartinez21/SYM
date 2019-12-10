@@ -1,0 +1,29 @@
+body{
+		margin: 0;
+    background-image: "spiral.gif";
+}
+
+a{
+	text-decoration: none;
+	font-size:20px;
+	padding: 18px;
+	color:white;
+}
+
+a:hover{
+		background: #b8aeb7
+}
+
+.navbar{
+		background: ##f2f2f2;
+}
+
+.navlist{
+	display: inline-flex;
+	list-style-type: none;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
