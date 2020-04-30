@@ -9,15 +9,15 @@
 <style>
 body {
   background-color: #f5f5f5;
-  font-family: arial;
-}
+  font-family: arial;}
+
 .content {
   max-width: 500px;
   margin: auto;
   background: white;
   padding: 10px;
 } 
-  
+
 .glow {
   font-size: 40px;
   color: #fff;
@@ -36,9 +36,10 @@ body {
   }
 }
 </style>
-  </head>
+
   <body>
 <h1 class="glow">Sophia Martinez</h1>
+
     <div class="navbar">
       <ul class="navlist">
         <li><a href="index.html">Home</a></li>
@@ -49,7 +50,7 @@ body {
       </ul>
     </div>
   </body>
-  <!--end of Nav bar-->
+
 <style>
 * {
   box-sizing: border-box;
@@ -77,16 +78,18 @@ body{
   }
 }
 </style>
-<body>
 
+</head>
+<body>
 <!-- Header -->
 <div class="header">
   <h1>Artwork</h1>
   <p> My work composed of animations, sketches, and digital media pieces from De Anza, Foothill, and San José State </p>
 </div>
-
+<!-- portfolio grid -->
 <div class="row"> 
   <div class="column">
+
     <img src="Processingportrait.png" style="width:30%">
     <img src="Invisi-cloak.png" style="width:40%">
     <img src="3dmashup.png" style="width:40%">
@@ -100,11 +103,118 @@ body{
     <img src="baby.jpg" style="width:30%">
     <a href="citypopescape.html">
         <img src="codeasart.jpg" style="width:40%">
+
+   <div class="content"> 	   
+   	 <img src="Processingportrait.png" style="width:30%">
+	   <h3>Portrait</h3>   
+    	</div>
+ 	 </div>
+	 <div class="column">
+   <div class="content"> 	   
+   	 <img src="painting1.png" style="width:40%">
+	   <h3>windmill</h3>   
+    	</div>
+ 	 </div>
+	 <div class="column">
+   <div class="content"> 	   
+   	 <img src="painting2.png" style="width:40%">
+	   <h3>mushroom</h3>   
+    	</div>
+ 	 </div>
+  <div class="column">
+   <div class="content">
+    	<img src="Invisi-cloak.png" style="width:40%">
+	   <h3>Invisi-cloak</h3>
+	   <p>
+		   "The name of the assignment that prompted this piece was called  “Art as Activists”. This piece was inspired by the feminist values and social justice issues related to the #MeToo movement.
+		   Women are expected to dress a certain way to prevent unwanted attention in the patriarchal society of the United States. However at the same time there are women who fully cover themselves and prove that a woman’s choice of clothing has no impact on the actions of sexual assailants."
+	   </p>
+	  </div>
+	</div>
+	<div class="column">
+		<div class="content">
+   			<a href="3dmashup.html">
+				<img src="3dmashup.png" style="width:40%"> </a>
+				<h3>3d Mashup</h3>
+				</div>
+		</div>
+	<div class="column">
+		<div class="content">
+    <img src="pastel.jpg" style="width:40%">
+			<h3>Pastel Portrait</h3>
+			<p>11/18/19, Chalk Pastel
+"This self portrait was a final for one of the last art classes I took at De-Anza. I attempted to capture my golden undertones of my skin and referenced a selfie I took. 
+				In this piece I challenged myself to render the skin tone as accurately as I could because coloring is not my strength."
+			</p>
+		</div>
+		</div>
+	<div class="column">
+	     <div class="content">
+    	<a href="tweet.html">
+		<img src="tweet.gif" style="width:25%"> </a>
+		<h3>Tweet</h3>
+		</div>
+		</div>
+  <div class="column">
+	  <div class="content">
+    <img src="cloudy404.jpg" style="width:35%">
+		  <h3>Glitch Art</h3>
+		  <p>"My "happy place" is above the clouds, and that imagery inspired this artwork. I had an image that I took from a flight of fluffy white clouds surrounded by a blue sky.
+			  Then I took the miage to audacity and played with the different settings that would be applied to sound. I was also inspired by vaporwave art that I find on social media.
+			  It gives an avant-garde aesthetic and grabs the viewer's eyes from the colors."</p>
+	  </div>
+		</div>
+		<div class="column">
+		     <div class="content">
+  			  <img src="baby.jpg" style="width:45%">
+			     <h3>Baby self-portrait</h3>
+			     <p>"This artwork was created using chalk pastel. Growing up I had a peculiar fascination for things like ladybugs, die and the color pink.
+				     I referenced an old and favorite photo of me when I was very young and in my grandparents house. Their house was my daycare center and my second home."</p>
+			</div>
+		</div>
+		<div class="column">
+		     <div class="content">
+			     <a href="citypopescape.html">
+        <img src="codeasart.jpg" style="width:50%">		  
+
       </a>
+			     <h3> CityPop Escape </h3>
+			</div>
+		</div>
+		<div class="column">
+		     <div class="content">
        <a href="kanyequest.html">
+
         <img src="kanyequest.png" style="width:30%">
+
+        <img src="kanyequest.png" style="width:40%">
+
       </a>
-</div>
+			     <h3> Kanye Quest </h3>
+			</div>
+		</div>
+		<div class="column">
+		     <div class="content">
+	<a href="ARGraphics.html">
+    		<img src="arGraphics.png" style="width:35%">
+			     </a>
+		<h3> Free! Style </h3>
+			</div>
+			</div>
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">×</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+<!-- <script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script> --></div>
+<!--END MAIN-->   
 
 </body>
 </html>
