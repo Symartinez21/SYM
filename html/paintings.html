@@ -4,18 +4,20 @@
     <link rel="stylesheet" href="artwork.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--Navigation bar-->
+<head>
     <title> Sophia Martinez </title>
 <style>
 body {
-  background-color: #f0f0f0;
-  font-family: arial;
-}
+  background-color: #f5f5f5;
+  font-family: arial;}
+
 .content {
   max-width: 500px;
   margin: auto;
-  padding: 5px;
-}
-  
+  background: white;
+  padding: 10px;
+} 
+
 .glow {
   font-size: 40px;
   color: #fff;
@@ -24,7 +26,6 @@ body {
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }
-
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -35,10 +36,10 @@ body {
   }
 }
 </style>
-  </head>
+
   <body>
-  <div class="content">
 <h1 class="glow">Sophia Martinez</h1>
+
     <div class="navbar">
       <ul class="navlist">
         <li><a href="index.html">Home</a></li>
@@ -49,7 +50,36 @@ body {
       </ul>
     </div>
   </body>
-  <!--end of Nav bar-->
+
+<style>
+* {
+  box-sizing: border-box;
+} 
+body{
+  margin: 0;
+  font-family: Arial;
+}
+.header{
+  text-align:center;
+  padding: 32px;
+}
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+
+</head>
     
 <body>
   <img src="images/painting1.png" alt="windmill">
