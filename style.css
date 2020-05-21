@@ -25,10 +25,10 @@ a{
   font-family: "Quicksand", Arial, sans-serif;
   padding: 20px 0 ;
 }
-.portfolio .our-work {
+/*.portfolio .our-work {
   overflow: hidden;
 }
-
+*/
 .portfolio .our-work>div {
   float: left;
   width: 30%;
