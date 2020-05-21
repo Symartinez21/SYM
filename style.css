@@ -9,6 +9,41 @@ a{
 	color:white;
 }
 
+.container {
+  width: 80%;
+  
+  margin: auto;
+  
+}
+/* Portfolio */
+.portfolio {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.portfolio h2{
+  font-family: "Quicksand", Arial, sans-serif;
+  padding: 20px 0 ;
+}
+.portfolio .our-work {
+  overflow: hidden;
+}
+
+.portfolio .our-work>div {
+  float: left;
+  width: 33.333333%;
+  margin-bottom: 10px;
+}
+
+.portfolio .our-work>div img {
+  width: 92%;
+  margin: 10px;
+  padding: 3px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 10px 10px #ccc;
+}
+
 a:hover{
 		background: #284472
 }
