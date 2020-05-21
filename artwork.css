@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+a{
+  text-decoration: none;
+  font-size:20px;
+  padding: 18px;
+  color:white;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
+.container {
+  width: 80%;
+  
+  margin: auto;
+  
+}
+
+a:hover{
+    background: #284472
+}
+
+.navbar{
+    background: #e3dce2;
+}
+
+.navlist{
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
