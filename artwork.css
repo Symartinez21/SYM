@@ -9,6 +9,13 @@ a{
   color:white;
 }
 
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 10px;
+}
+
 .container {
   width: 80%;
   
