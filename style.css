@@ -31,12 +31,12 @@ a{
 
 .portfolio .our-work>div {
   float: left;
-  width: 33.333333%;
+  width: 30%;
   margin-bottom: 10px;
 }
 
 .portfolio .our-work>div img {
-  width: 92%;
+  width: 70%;
   margin: 10px;
   padding: 3px;
   background-color: #fff;
