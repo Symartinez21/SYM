@@ -1,3 +1,54 @@
+<!--Navigation bar-->
+
+    <title> Sophia Martinez </title>
+<style>
+body {
+  background-color: #f0f0f0;
+  font-family: arial;
+}
+.content {
+  max-width: 500px;
+  margin: auto;
+  padding: 5px;
+}
+  
+
+.glow {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+</style>
+  </head>
+
+<h1 class="glow">Sophia Martinez</h1>
+    <div class="navbar">
+      <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="artwork.html">Artwork</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="https://www.instagram.com/scribbledstarart/">Instagram</a></li>
+        <li><a href="https://scribbledstar-art.tumblr.com/">Tumblr</a></li>
+      </ul>
+    </div>
+  </body>
+  <!--end of Nav bar-->
+
 body{
 		margin: 0;
 }
@@ -20,7 +71,7 @@ a:hover{
 		background: #284472
 }
 
-.navbar{
+/*.navbar{
 		background: #e3dce2;
 }
 
@@ -32,4 +83,4 @@ a:hover{
 .navbar a.active {
   background-color: #4CAF50;
   color: white;
-}
+}*/
