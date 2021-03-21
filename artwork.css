@@ -19,10 +19,12 @@ a{
 
 .container {
   width: 80%;
-  
   margin: auto;
+  justify-content: center;    
   
 }
+
+
 
 a:hover{
     background: #284472
