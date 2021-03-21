@@ -9,6 +9,11 @@ a{
 	color:white;
 }
 
+li {
+  float: center;
+}
+
+
 .container {
     width: 200px;
     height: 120px;
