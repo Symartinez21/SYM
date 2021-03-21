@@ -1,16 +1,14 @@
-body{
-		margin: 0;
-
-		background-image: url("images/artstudent.jpg");
-		background-repeat: no-repeat;
-		 background-attachment: fixed;
- 		 background-size: cover;
-}
 
 li {
   float: center;
 }
 
+.container {
+	display: grid;
+  	justify-content: space-evenly;  
+	grid-template-columns: 50px 50px 50px 50px;
+  	grid-template-rows: auto;
+	
 }
 
 .content {
