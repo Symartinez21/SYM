@@ -15,6 +15,15 @@ a{
   text-align: center;
 }
 
+.portfolio .our-work>div img {
+  width: 70%;
+  margin: 5px;
+  padding: 5px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0px 10px 10px #ccc;
+}
+
 a:hover{
 		background: #284472
 }
