@@ -9,6 +9,12 @@ a{
 	color:white;
 }
 
+.portfolio {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
 a:hover{
 		background: #284472
 }
