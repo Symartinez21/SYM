@@ -7,9 +7,7 @@ body{
 	float:left;
 	width:33.33%;
 }
-.column.middle {
-	width:60%;
-}
+
 
 .container{
 	display:grid;
