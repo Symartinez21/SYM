@@ -30,8 +30,16 @@
 		width: 90%;
 		margin: auto;
 		padding: 45px 0;
+		display: grid;
+		grid-template-columns: auto auto auto;
+		 
 }
-
+.main .gallery .img{
+	position:relative
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
 
 
 a{
