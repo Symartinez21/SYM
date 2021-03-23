@@ -3,6 +3,7 @@ body{
   margin:20px;
   padding:0;
   text-align:center;
+  font-family: monospace;
 }
 .column{
   float:left;
@@ -80,4 +81,8 @@ p {
   background-color:#e8dae8;
   color: #b56791;
   text-decoration: overline;
+   position: absolute;
+  left:100px;
+  right:100px;
+  top: 500px;
 }
