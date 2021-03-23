@@ -1,12 +1,8 @@
-div {
-  padding-bottom: 50px;
-  
-}
 
 body{
   background-color: white;
   margin:20px;
-  padding:0;
+  padding:10px;
   text-align:center;
   color: #b56791;
   font-family: monospace, sans-serif;
