@@ -1,7 +1,17 @@
 body{
-	margin:20px;
-	padding:0;
-	text-align:center;
+	background-color: white;
+  margin:20px;
+  padding:0;
+  text-align:center;
+  color: #b56791;
+  font-family: monospace, sans-serif;
+  font-size: 14px;
+}
+
+h2{
+  font-family: Georgia, serif;
+  font-size: 30px;
+  color: #e5ceed;
 }
 .column{
 	float:left;
