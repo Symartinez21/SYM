@@ -87,4 +87,8 @@ a:hover{
   color: white;
 }
 
+p.ex1 {
+  margin-left: 30px;
+  margin-right: 30px
 
+}

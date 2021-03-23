@@ -28,6 +28,10 @@ h2{
 
 }
 
+footer {
+  display: block;
+}
+
 .gallery-item{
 		width:100%;
 		height:100%;
@@ -84,4 +88,5 @@ a:hover{
   background-color: #4CAF50;
   color: white;
 }
+
 
