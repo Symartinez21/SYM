@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<meta charset= "UTF-8">
+<head>
+<title> citypop code </title>
+<style>
+
+   .content {
+  max-width: 500px;
+  margin: auto;
+  background: #f5f5f5;
+  padding: 10px;
+}
+    
+.glow {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+</style>
+  </head>
+  <body>
+<h1 class="glow">citypop code</h1>
+    <div class="navbar">
+      <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://www.instagram.com/scribbledstarart/">Instagram</a></li>
+        <li><a href="https://scribbledstar-art.tumblr.com/">Tumblr</a></li>
+      </ul>
+    </div>
+  </body>
+  <!--end of Nav bar-->
+
+<p> /* @pjs preload="cloud.png"; */
+PImage img;
+float offset = 0;
+float easing = 0.05;
+
+void setup() {
+  noStroke();
+  size(900, 800);
+  img = loadImage("cloud.png");  // Load an image into the program 
+  Test t = new Test();
+  t.display();
+}
+
+class Test {
+  PImage img;
+  Test() {
+    // where abstractimage5.jpg is stored to the data directory
+    img = loadImage("cloud.png");
+  }
+ 
+  void display() {
+    img.resize(width,height);
+    background(img);
+  }
+}
+
+void draw(){
+  background(#3E5C8B);
+beginShape() ; //moon
+fill(#F0ECC6);
+vertex(30, 20);
+bezierVertex(80, 0, 80, 75, 30, 75);
+bezierVertex(50, 80, 60, 25, 30, 20);
+endShape();
+  fill(#11155D);
+  strokeWeight(2);
+  beginShape(); //building
+  vertex(0, 409);
+  vertex(174, 409);
+  vertex(174, 210);
+  vertex(503, 210);
+  vertex(503, 497);
+  vertex(747, 497);
+  vertex(747, 53);
+  vertex(960, 51);
+  vertex(960, 900);
+  vertex(0, 900);
+  vertex(0, 409);
+  endShape(CLOSE);
+
+ rectMode(CENTER);
+ if ((mouseX > 40) && (mouseX < 80) &&
+    (mouseY > 20) && (mouseY < 80)) {
+ fill(#F0ECC6); //yellow light
+rect(221, 696, 36, 54);
+ rect(461, 542, 36, 54);
+  rect(794, 692, 36, 54);
+ rect(794, 542, 36, 54);
+  rect(546, 759, 36, 54);
+ rect(794, 390, 36, 54);
+ rect(546, 596, 36, 54);
+ rect(887, 390, 36, 54);
+rect(887, 692, 36, 54);
+ } else {
+    fill(#F0C6D1); //pink light
+  }
+   rect(461, 759, 36, 54);
+   rect(105, 469, 36, 54);
+   rect(221, 382, 36, 54);
+ rect(105, 584, 36, 54);
+ rect(221, 286, 36, 54);
+  rect(546, 849, 36, 54);
+  rect(794, 259, 36, 54);
+rect(794, 113, 36, 54);
+rect(887, 113, 36, 54);
+
+image(img, 350, 400);  // Display at full opacity
+  float dx = (mouseX-img.width/2) - offset;
+  offset += dx * easing; 
+  tint(255, 127);  // Display at half opacity
+  image(img, offset, 0);
+  
+}
+</p>
+
+</html>
