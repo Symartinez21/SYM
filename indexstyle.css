@@ -58,6 +58,12 @@ footer {
 		transform:scale(1.5);
 }
 
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
 .main{
 	position: relative;
 	height: 50%;
