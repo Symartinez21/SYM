@@ -46,3 +46,34 @@ body{
 		transform:scale(1.5);
 }
 
+.main{
+	position: relative;
+	height: 50%;
+	width: 50%;
+}
+
+a{
+	text-decoration: none;
+	font-size:20px;
+	padding: 18px;
+	color:white;
+}
+
+a:hover{
+		background: #284472
+}
+
+.navbar{
+		background: #dba4d3;
+}
+
+.navlist{
+	display: inline-flex;
+	list-style-type: none;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
