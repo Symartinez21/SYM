@@ -3,7 +3,7 @@ body{
   margin:20px;
   padding:0;
   text-align:center;
-  font-family: monospace;
+  
 }
 .column{
   float:left;
@@ -77,11 +77,18 @@ a:hover{
   color: white;
 }
 
+h3{
+  font-family: Georgia, serif;
+  font-size: 50px;
+  color: #e5ceed;
+}
+
 p {
   background-color:#e8dae8;
   color: #b56791;
-  text-decoration: overline;
-   position: absolute;
+  position: absolute;
+  font-family: monospace, sans-serif;
+  font-size: 14px;
   left:100px;
   right:100px;
   top: 500px;
