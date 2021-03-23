@@ -77,14 +77,14 @@ a:hover{
   color: white;
 }
 
-h3{
+h2{
   font-family: Georgia, serif;
-  font-size: 50px;
+  font-size: 30px;
   color: #e5ceed;
 }
 
 p {
-  background-color:#e8dae8;
+  background-color:grey;
   color: #b56791;
   position: absolute;
   font-family: monospace, sans-serif;

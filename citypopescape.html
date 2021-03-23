@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html>
 <meta charset= "UTF-8">
-    <link rel="stylesheet" type= "text/css" href="artwork.css">
+    <link rel="stylesheet" type= "text/css" href="artwork.css" media="all">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--Navigation bar-->
 <head>
-  <script type="text/javascript" src="media/processing.js"></script>
     <title> Sophia Martinez </title>
 <style>
-body {
-  background-color: #f5f5f5;
-  font-family: arial;
+
+   .content {
+  max-width: 500px;
+  margin: auto;
+  background: #f5f5f5;
+  padding: 10px;
 }
+    
 .glow {
   font-size: 40px;
   color: #fff;
@@ -20,6 +23,7 @@ body {
   -moz-animation: glow 1s ease-in-out infinite alternate;
   animation: glow 1s ease-in-out infinite alternate;
 }
+
 @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
@@ -30,15 +34,13 @@ body {
   }
 }
 </style>
-  </head
-  >
-  <body>
+  </head>
 
-<h1 class="glow">Sophia Martinez</h1>
+  <body>
+<h1 class="glow">Stay Home (Demo)</h1>
     <div class="navbar">
       <ul class="navlist">
         <li><a href="index.html">Home</a></li>
-        <li><a href="artwork.html">Artwork</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="https://www.instagram.com/scribbledstarart/">Instagram</a></li>
         <li><a href="https://scribbledstar-art.tumblr.com/">Tumblr</a></li>
@@ -49,7 +51,7 @@ body {
 
   <body>
 
-    <h1> "CityPop Escape" </h1>
+    <h2> "CityPop Escape" </h2>
     <p> I created this artwork in processing, and am proud of how this turned out! The aesthetic inspiration comes from my love of citypop music and my favorite childhood anime Sailor moon. 
       The audience can interact with the artwork and flicker the lights of the buildings. </p>
     <canvas data-processing-sources="media/CityPopEscape.pde"></canvas>
