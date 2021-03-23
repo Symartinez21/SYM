@@ -3,6 +3,16 @@ body{
   margin:20px;
   padding:0;
   text-align:center;
+  color: #b56791;
+  font-family: monospace, sans-serif;
+  font-size: 14px;
+}
+
+h2{
+  font-family: Georgia, serif;
+  font-size: 30px;
+  color: #e5ceed;
+}
   
 }
 .column{
@@ -77,19 +87,4 @@ a:hover{
   color: white;
 }
 
-h2{
-  font-family: Georgia, serif;
-  font-size: 30px;
-  color: #e5ceed;
-}
 
-p {
-  background-color:grey;
-  color: #b56791;
-  position: absolute;
-  font-family: monospace, sans-serif;
-  font-size: 14px;
-  left:100px;
-  right:100px;
-  top: 700px;
-}
