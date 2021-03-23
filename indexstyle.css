@@ -3,6 +3,14 @@ body{
 	padding:0;
 	text-align:center;
 }
+.column{
+	float:left;
+	width:33.33%;
+}
+.column.middle {
+	width:50%;
+}
+
 .container{
 	display:grid;
 	grid-template-columns: repeat(5, 1fr);
