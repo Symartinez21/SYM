@@ -39,7 +39,7 @@
 
 
 
-<h1 class="glow">Stay Home (Demo)</h1>
+<h1 class="glow">Citypop Escape</h1>
     <div class="navbar">
       <ul class="navlist">
         <li><a href="index.html">Home</a></li>
@@ -53,13 +53,10 @@
 
   <body>
 
-    <h2> "CityPop Escape" </h2>
+    <h2> Title: "CityPop Escape" </h2>
     <p> I created this artwork in processing, and am proud of how this turned out! The aesthetic inspiration comes from my love of citypop music and my favorite childhood anime Sailor moon. 
       The audience can interact with the artwork and flicker the lights of the buildings. </p>
   <script type="application/processing">
-PImage img;
-float offset = 0;
-float easing = 0.05;
 
 void setup() {
   noStroke();
@@ -137,9 +134,8 @@ image(img, 350, 400);  // Display at full opacity
   offset += dx * easing; 
   tint(255, 127);  // Display at half opacity
   image(img, offset, 0);
-  
 }
 </script>
-    <canvas data-processing-sources="media/CityPopEscape.pde"></canvas>
+    <canvas id="sketch" tabindex="0" width="900" height="960" style="image-rendering: -webkit-optimize-contrast !important;"> </canvas>" 
   </body>
   </html>
