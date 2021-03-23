@@ -8,7 +8,7 @@ body{
 	width:33.33%;
 }
 .column.middle {
-	width:50%;
+	width:60%;
 }
 
 .container{
@@ -21,8 +21,8 @@ body{
 }
 
 .gallery-item{
-		width:60%;
-		height:60%;
+		width:100%;
+		height:100%;
 		position: relative;
 		
 }
