@@ -26,7 +26,7 @@
 
 .main .gallery{
 		position: relative;
-		height: 100%;
+		height: auto;
 		width: 90%;
 		margin: auto;
 		padding: 45px 0;
@@ -43,6 +43,17 @@
 	overflow: hidden;
 }
 
+.main .gallery .img img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	filter: brightness(0.5) grayscale(100);
+	border-radius: 2px;
+	transition: 0.3s ease-in-out;
+
+.main .gallery .img:hover img{
+	filter: brightness(1) grayscale(0);
+}
 
 a{
 	text-decoration: none;
