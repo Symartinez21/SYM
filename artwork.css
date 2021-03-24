@@ -66,7 +66,7 @@ h2{
 a{
   text-decoration: none;
   font-size:20px;
-  padding: 18px;
+  padding: none;
   color:white;
 }
 
@@ -88,15 +88,3 @@ a:hover{
   color: white;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-p.ex1 {
-  margin-left: 200px;
-  margin-right: 200px
-
-}
